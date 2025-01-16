@@ -110,7 +110,7 @@ function subStockView($param)
 			</table>
 		</div>
 
-		<input type="image" src="./images/btn_search.png" onclick="form.act.value='stockEditComplete';form.submit();" />
+		<input type="image" src="./images/btn_search.png" onclick="form.act.value='stockSearch';form.submit();" />
 
 		<hr />
 
@@ -343,7 +343,7 @@ function subStockEditView($param)
 		</table>
 
 		<a href="javascript:fnStockEditCheck();"><img src="./images/<?php print $param["btnImage"] ?>" /></a>　
-		<a href="javascript:form.act.value='stockEditComplete';form.submit();"><img src="./images/btn_return.png" /></a>
+		<a href="javascript:form.act.value='stock';form.submit();"><img src="./images/btn_return.png" /></a>
 		<?php
 		if ($param["stockNo"]) {
 		?>
