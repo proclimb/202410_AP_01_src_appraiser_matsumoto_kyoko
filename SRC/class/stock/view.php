@@ -300,7 +300,7 @@ function subStockEditView($param)
 						$param["distance"] = 1;
 					}
 
-					for ($i = 0; $i < 4; $i++) {s
+					for ($i = 0; $i < 4; $i++) {
 						$check = '';
 						if (($param["distance"] - 1) == $i) {
 							$check = 'checked = "checked"';
