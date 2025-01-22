@@ -119,7 +119,7 @@ function subStockView($param)
 			return;
 		}
 
-		$sql = fnSqlStockList(1, $param);
+		$sql = fnSqlStockList(0, $param);
 		$res = mysqli_query($param["conn"], $sql);
 		$row = mysqli_fetch_array($res);
 		#var_dump($row); 検索画面の配列のキーを見るために使用　チケットナンバー33725
